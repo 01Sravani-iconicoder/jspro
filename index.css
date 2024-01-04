@@ -1,0 +1,53 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(https://t4.ftcdn.net/jpg/02/10/45/95/360_F_210459536_XmLDEcKq2DpeNLVmheuWeu9NM9aGKnih.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+   
+}
+.total
+{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(182, 120, 148);
+    box-shadow: 10px 10px 10px rgb(75, 56, 63);
+    padding: 10px;
+}
+.para1
+{
+    text-align: end;
+}
+button
+{
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px ;
+    background-color: aqua;
+}
+button:active
+{
+    box-shadow: none;
+}
+.counter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
